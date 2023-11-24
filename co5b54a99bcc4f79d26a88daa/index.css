@@ -1,0 +1,106 @@
+html, body {
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 25px auto;
+    padding: 0;
+}
+
+body{
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 385px;
+    height: auto;
+}
+
+/* Containers */
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px 8px;
+    border-bottom: 5px solid #C6C6C6;
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 8px;
+}
+
+.lc{
+    margin: 10px;
+}
+
+/* Images */
+.logo{
+    width: 100px;
+}
+
+.riyad-avatar{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    padding: 10px 5px;
+}
+
+.vangogh-avatar {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0; 
+    border-radius: 100%;
+    padding: 0px 8px;
+}
+
+.vangogh-post{
+    width: 385px;
+    height: 385px;
+}
+
+.hcd-img{
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Typography */
+h2{
+    color: #000;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h3{
+    color: #000;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h2, h3 {
+    margin: 2px;
+}
+
+#likes{
+    font-size: 15px;
+}
+
+#comments{
+    font-size: 18px;
+}
+
+#mushrooms{
+    font-weight: lighter;
+}
+
+/*  */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: auto;
+    margin: 0; 
+}
+
